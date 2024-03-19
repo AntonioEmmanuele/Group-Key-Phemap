@@ -6,7 +6,7 @@
  */
 #ifndef AS_COMMON_H
 #define AS_COMMON_H
-#include "../../phemap_common.h"
+#include "../phemap_common.h"
 
 void as_start_timer();
 uint8_t as_is_timer_expired();

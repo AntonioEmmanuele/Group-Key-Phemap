@@ -6,8 +6,8 @@
  */
 #ifndef DGK_LV_H
 #define DGK_LV_H
-#include "../../as_gk/Protocol/gk_phemap_as.h"
-#include "../../dev_gk/Protocol/gk_phemap_dev.h"
+#include "../as_protocol/gk_phemap_as.h"
+#include "../dev_protocol/gk_phemap_dev.h"
 #define LV_PC_DBG 0
 
 /**

@@ -1,6 +1,6 @@
 #ifndef DEV_COMMON
 #define DEV_COMMON
-#include "../../phemap_common.h"
+#include "../phemap_common.h"
 void dev_start_timer(const phemap_id_t id);
 uint8_t dev_is_timer_expired(const phemap_id_t id);
 void  dev_reset_timer(const phemap_id_t id);
