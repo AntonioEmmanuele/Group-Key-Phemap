@@ -15,15 +15,20 @@ response message in its buffers allowing the user to configure its default commu
 
 This library has been applied in the following papers.
 
-> https://ieeexplore.ieee.org/abstract/document/10614146
+> [Barbareschi, M., Casola, V., Emmanuele, A., Lombardi, D. *A Lightweight PUF-Based Protocol for Dynamic and Secure Group Key Management in IoT*. IEEE Internet of Things Journal (2024). DOI: 10.1109/JIOT.2024.3418207](https://doi.org/10.1109/JIOT.2024.3418207)
+
 
 Please, cite us!
 ```
-@article{barbareschi2024lightweight,
-  title={A Lightweight PUF-based Protocol for Dynamic and Secure Group Key Management in the IoT},
+@ARTICLE{10614146,
   author={Barbareschi, Mario and Casola, Valentina and Emmanuele, Antonio and Lombardi, Daniele},
-  journal={IEEE Internet of Things Journal},
+  journal={IEEE Internet of Things Journal}, 
+  title={A Lightweight PUF-Based Protocol for Dynamic and Secure Group Key Management in IoT}, 
   year={2024},
-  publisher={IEEE}
+  volume={11},
+  number={20},
+  pages={32969-32984},
+  keywords={Internet of Things;Protocols;Physical unclonable function;Authentication;Performance evaluation;Synchronization;Proposals;Constrained devices;group key management;Internet of Things (IoT);physically unclonable function (PUF)},
+  doi={10.1109/JIOT.2024.3418207}
 }
 ```
