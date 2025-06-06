@@ -12,3 +12,18 @@ The main idea is in fact that when a packet is received, then an automa function
 
 In fact, the library does not make assumptions on the type of underlying communication protocol but saves
 response message in its buffers allowing the user to configure its default communication protocol. 
+
+This library has been applied in the following papers.
+
+> https://ieeexplore.ieee.org/abstract/document/10614146
+
+Please, cite us!
+```
+@article{barbareschi2024lightweight,
+  title={A Lightweight PUF-based Protocol for Dynamic and Secure Group Key Management in the IoT},
+  author={Barbareschi, Mario and Casola, Valentina and Emmanuele, Antonio and Lombardi, Daniele},
+  journal={IEEE Internet of Things Journal},
+  year={2024},
+  publisher={IEEE}
+}
+```
