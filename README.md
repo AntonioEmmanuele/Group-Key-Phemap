@@ -1,9 +1,9 @@
 # Group-Key-Phemap
 This repository contains a proof of concept implementation of the Group Key Phemap Protocol. 
 
-The implementation is done in order to be independant from the target board and/or simulator in use. 
+The implementation is independant from the target board and/or simulator in use. 
 
-Particularly, each role, e.g. AS/LV/Device, has been implemented as a library that can be easily deployed into the target. 
+Particularly, each role, e.g. AS/LV/Device, has been implemented as a standalone library that can be easily deployed into the target. 
 
 Each role is implemented as a struct object encapsulating all the required data to execute the protocol, additionally each function exposes an 
 "automa" function, this function allows the automatic management of protocol operation when receiving a GK-PHEMAP message. 

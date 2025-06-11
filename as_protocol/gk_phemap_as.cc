@@ -533,7 +533,7 @@ phemap_ret_t gk_as_automa(AuthServer*const pAS,uint8_t *pPkt, const uint8_t pktL
 puf_resp_t as_get_next_link (const phemap_id_t req_id)
 {
     (void)req_id;
-    return 0xac00001f;
+    return 0xef0000ac;
 }
 
 void  __attribute__((weak)) as_start_timer()
@@ -558,7 +558,7 @@ void  __attribute__((weak)) as_rng_init()
 }
 uint32_t __attribute__((weak)) as_rng_gen()
 {
-    return 0x00f1ca00;
+    return 0x00cafe00;
 }
 
 static private_key_t keyed_sign(const uint8_t *const buff, const uint32_t buff_size, const private_key_t sign_key )

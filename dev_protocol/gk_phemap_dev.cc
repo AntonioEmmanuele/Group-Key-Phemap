@@ -232,10 +232,10 @@ phemap_ret_t gk_dev_automa(Device* const dev, uint8_t * const pPkt,const uint32_
 // Get the next chain link as an array of u8
 void dev_get_next_puf_resp_u8 (uint8_t* const  puf)
 {
-    puf[0] = 0xac;
+    puf[0] = 0xef;
     puf[1] = 0x00;
     puf[2] = 0x00;
-    puf[3] = 0x1f;
+    puf[3] = 0xac;
 }
 
 // get the next chain link

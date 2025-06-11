@@ -461,7 +461,7 @@ static void LvSendGroupToDevs(local_verifier_t*const lv)
 static puf_resp_t LvGetNextCarnetLink (const phemap_id_t reqId)
 {
     (void)reqId;
-    return 0xac00001f;
+    return 0xef0000ac;
 }
 
 static private_key_t LvKeyedSign(const uint8_t *const buff, const uint32_t buffSize, const private_key_t signKey )
